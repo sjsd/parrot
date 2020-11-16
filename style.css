@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 80vw;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.talk {
+    border: none;
+    background-color: #F94851;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #FFD039;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin: 0 0 2rem 0;
+    border-radius: 1rem;
+}
+
+.talk:hover {
+    background-color: #f71722;
+}
+
+.talk.active {
+    background-color: #006FEC;
+}
+
+.content {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.iconref,
+.iconref a {
+    font-size: 0.8rem;
+    color: #999
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+}
